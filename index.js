@@ -229,49 +229,6 @@ const addTeamMember = () => {
 };
 
 
-
-// function addTeamMember() {
-//     inquirer.prompt(chooseEmployee)
-//     .then(answer => {
-//         if (answer.chooseEmployee === "Manager") {
-//             inquirer.prompt(questions.Manager)
-//             .then(answer => {
-//                 const manager = new Manager (answer.name, answer.id, answer.email, answer.officeNumber);
-//                 teamArray.push(manager);
-//                 if (answer.addEmployee === "Yes") {
-//                     addTeamMember();
-//                 } else {
-//                     init();
-//                 };
-//             });
-
-//         } else if (answer.chooseEmployee === "Engineer") {
-//             inquirer.prompt(questions.Engineer)
-//             .then(answer => {
-//                 const engineer = new Engineer (answer.name, answer.id, answer.email, answer.github);
-//                 teamArray.push(engineer);
-//                 if (answer.addEmployee === "Yes") {
-//                     addTeamMember();
-//                 } else {
-//                     init();
-//                 };
-//             });
-
-//         } else if (answer.chooseEmployee === "Intern") {
-//             inquirer.prompt(questions.Intern)
-//             .then(answer => {
-//                 const intern = new Intern (answer.name, answer.id, answer.email, answer.school);
-//                 teamArray.push(intern);
-//                 if (answer.addEmployee === "Yes") {
-//                     addTeamMember();
-//                 } else {
-//                     init();
-//                 };
-//             });
-//         };
-//     });
-// };
-
 const writeFile = data => {
     fs.writeFile("./dist/index.html", data, err => {
         if (err) {
