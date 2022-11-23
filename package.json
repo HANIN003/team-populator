@@ -2,5 +2,11 @@
   "dependencies": {
     "email-validator": "^2.0.4",
     "inquirer": "^8.2.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
