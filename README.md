@@ -23,6 +23,5 @@ Please refer to LICENSE.md for more information.
 ## Credits
 Nicole Wallace, GitHub: nicolewallace09
 
-
 ## Tests
-Run `npm test` to run Jest for tests on constructors. 
+Run `npm test` to see tests run using Jest.  
