@@ -20,7 +20,7 @@ const createEngineer = function (engineer) {
     <div class="card mr-4 ml-4 mb-4 mt-4">
         <div class="card-header">
             <h2 class="card-title">${engineer.name}</h2>
-            <h3 class="card-subtitle"><i class="fa-solid fa-mug-hot"></i> Manager</h3>
+            <h3 class="card-subtitle"><i class="fa-solid fa-glasses"></i> Engineer</h3>
         </div>
         <div class="card-body">
             <ul class="list-group list-group-flush">
@@ -37,7 +37,7 @@ const createIntern = function (intern) {
     <div class="card mr-4 ml-4 mb-4 mt-4">
         <div class="card-header">
             <h2 class="card-title">${intern.name}</h2>
-            <h3 class="card-subtitle"><i class="fa-solid fa-mug-hot"></i> Manager</h3>
+            <h3 class="card-subtitle"><i class="fa-solid fa-user-graduate"></i> Intern</h3>
         </div>
         <div class="card-body">
             <ul class="list-group list-group-flush">
